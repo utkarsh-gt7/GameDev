@@ -9,15 +9,15 @@ public class If_Statements : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // if(age > 18){
-        //     Debug.Log("You are adult");// code to be executed if condition is true
-        // }
-        // else if(age < 18){
-        //     Debug.Log("You can't vote");// code to be executed if condition is false
-        // }
-        // else{
-        //     Debug.Log("you are 18");
-        // }
+        if(age > 18){
+            Debug.Log("You are adult");// code to be executed if condition is true
+        }
+        else if(age < 18){
+            Debug.Log("You can't vote");// code to be executed if condition is false
+        }
+        else{
+            Debug.Log("you are 18");
+        }
 
     }
 
